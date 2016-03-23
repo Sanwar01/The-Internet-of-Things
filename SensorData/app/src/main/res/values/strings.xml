@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SensorData</string>
+    <string name="action_settings">Settings</string>
+    <string name="sensor_name" />
+    <string name="sensor_value" />
+    <string name="sensor_retrieve_button_text" />
+    <string name="sensor_update_button_text" />
+</resources>

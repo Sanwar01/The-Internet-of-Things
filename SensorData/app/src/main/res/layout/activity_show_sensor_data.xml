@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.democo.androidtosensorlab.MainActivity" >
+
+    <TextView
+        android:id="@+id/sensornameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="47dp"
+        android:text="@string/sensor_name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/sensorvalueTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/sensornameTV"
+        android:layout_alignBottom="@+id/sensornameTV"
+        android:layout_toRightOf="@+id/sensornameTV"
+        android:text="@string/sensor_value"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/getSensorValueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sensornameTV"
+        android:layout_below="@+id/sensornameTV"
+        android:layout_marginTop="25dp"
+        android:text="Get Sensor Value" />
+
+    <Button
+        android:id="@+id/updateSensorValueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/getSensorValueButton"
+        android:layout_below="@+id/getSensorValueButton"
+        android:layout_marginTop="14dp"
+        android:text="Update Sensor Value" />
+
+</RelativeLayout>
